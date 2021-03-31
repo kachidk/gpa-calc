@@ -405,105 +405,105 @@ const course15 = () => {
   }
 };
 
-const unit1 = () => {
+export const unit1 = () => {
   var classList = document.querySelector(".input-unit-1").value
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit2 = () => {
+export const unit2 = () => {
   var classList = document.querySelector(".input-unit-2").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit3 = () => {
+export const unit3 = () => {
   var classList = document.querySelector(".input-unit-3").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit4 = () => {
+export const unit4 = () => {
   var classList = document.querySelector(".input-unit-4").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit5 = () => {
+export const unit5 = () => {
   var classList = document.querySelector(".input-unit-5").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit6 = () => {
+export const unit6 = () => {
   var classList = document.querySelector(".input-unit-6").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit7 = () => {
+export const unit7 = () => {
   var classList = document.querySelector(".input-unit-7").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit8 = () => {
+export const unit8 = () => {
   var classList = document.querySelector(".input-unit-8").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit9 = () => {
+export const unit9 = () => {
   var classList = document.querySelector(".input-unit-9").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit10 = () => {
+export const unit10 = () => {
   var classList = document.querySelector(".input-unit-10").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit11 = () => {
+export const unit11 = () => {
   var classList = document.querySelector(".input-unit-11").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit12 = () => {
+export const unit12 = () => {
   var classList = document.querySelector(".input-unit-12").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit13 = () => {
+export const unit13 = () => {
   var classList = document.querySelector(".input-unit-13").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit14 = () => {
+export const unit14 = () => {
   var classList = document.querySelector(".input-unit-14").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
   var sum = bbc(parseInt(classList));
   return sum;
 };
-const unit15 = () => {
+export const unit15 = () => {
   var classList = document.querySelector(".input-unit-15").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
@@ -600,18 +600,94 @@ export const grade = () => {
   return { g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15 };
 };
 
-// const g1 = useRef();
-// const g2 = useRef();
-// const g3 = useRef();
-// const g4 = useRef();
-// const g5 = useRef();
-// const g6 = useRef();
-// const g7 = useRef();
-// const g8 = useRef();
-// const g9 = useRef();
-// const g10 = useRef();
-// const g11 = useRef();
-// const g12 = useRef();
-// const g13 = useRef();
-// const g14 = useRef();
-// const g15 = useRef();
+
+export const x1 = () => {
+  var classList = document.querySelector(".input-value-1");
+  const main = parseInt(classList.value);
+  return main;
+
+};
+
+ export const x2 = () => {
+  var classList = document.querySelectorAll(".input-value-2");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x3 = () => {
+  var classList = document.querySelectorAll(".input-value-3");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x4 = () => {
+  var classList = document.querySelectorAll(".input-value-4");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x5 = () => {
+  var classList = document.querySelectorAll(".input-value-5");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x6 = () => {
+  var classList = document.querySelectorAll(".input-value-6");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x7 = () => {
+  var classList = document.querySelectorAll(".input-value-7");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x8 = () => {
+  var classList = document.querySelectorAll(".input-value-8");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x9 = () => {
+  var classList = document.querySelectorAll(".input-value-9");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x10 = () => {
+  var classList = document.querySelectorAll(".input-value-10");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x11 = () => {
+  var classList = document.querySelectorAll(".input-value-11");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x12 = () => {
+  var classList = document.querySelectorAll(".input-value-12");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x13 = () => {
+  var classList = document.querySelectorAll(".input-value-13");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x14 = () => {
+  var classList = document.querySelectorAll(".input-value-14");
+  const main = parseInt(classList.value);
+  return main;
+};
+
+export const x15 = () => {
+  var classList = document.querySelectorAll(".input-value-15");
+  const main = parseInt(classList.value);
+  return main;
+};
