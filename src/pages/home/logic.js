@@ -398,7 +398,7 @@ const tUnit = () => {
           let bbc = n => isNaN(n) ? 0 : n;
 
         var sum = main.reduce(function(a, b) { return bbc(parseInt(a)) + bbc(parseInt(b));}, 0);
-        return (sum);
+        return sum;
 }
 
 export const total = () => {
