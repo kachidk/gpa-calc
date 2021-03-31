@@ -405,114 +405,114 @@ const course15 = () => {
   }
 };
 
-export const unit1 = () => {
-  var classList = document.querySelector(".input-unit-1").value;
+const unit1 = () => {
+  var classList = document.querySelector(".input-unit-1").value
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit2 = () => {
+const unit2 = () => {
   var classList = document.querySelector(".input-unit-2").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit3 = () => {
+const unit3 = () => {
   var classList = document.querySelector(".input-unit-3").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit4 = () => {
+const unit4 = () => {
   var classList = document.querySelector(".input-unit-4").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit5 = () => {
+const unit5 = () => {
   var classList = document.querySelector(".input-unit-5").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit6 = () => {
+const unit6 = () => {
   var classList = document.querySelector(".input-unit-6").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit7 = () => {
+const unit7 = () => {
   var classList = document.querySelector(".input-unit-7").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit8 = () => {
+const unit8 = () => {
   var classList = document.querySelector(".input-unit-8").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit9 = () => {
+const unit9 = () => {
   var classList = document.querySelector(".input-unit-9").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit10 = () => {
+const unit10 = () => {
   var classList = document.querySelector(".input-unit-10").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit11 = () => {
+const unit11 = () => {
   var classList = document.querySelector(".input-unit-11").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit12 = () => {
+const unit12 = () => {
   var classList = document.querySelector(".input-unit-12").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit13 = () => {
+const unit13 = () => {
   var classList = document.querySelector(".input-unit-13").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit14 = () => {
+const unit14 = () => {
   var classList = document.querySelector(".input-unit-14").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
-export const unit15 = () => {
+const unit15 = () => {
   var classList = document.querySelector(".input-unit-15").value;
 
   let bbc = (n) => (isNaN(n) ? 0 : n);
-  var sum = bbc(classList);
+  var sum = bbc(parseInt(classList));
   return sum;
 };
 
 const tUnit = () => {
-  var classList = document.querySelectorAll(".input-unit-1 .input-unit-2 .input-unit-3 .input-unit-4 .input-unit-5 .input-unit-6 .input-unit-7 .input-unit-8 .input-unit-9 .input-unit-10 .input-unit-11 .input-unit-12 .input-unit-13 .input-unit-14 .input-unit-15");
+  var classList = document.querySelectorAll(".input-unit-1, .input-unit-2, .input-unit-3, .input-unit-4, .input-unit-5, .input-unit-6, .input-unit-7, .input-unit-8, .input-unit-9, .input-unit-10, .input-unit-11, .input-unit-12, .input-unit-13, .input-unit-14, .input-unit-15");
   const main = Array.prototype.map.call(classList, function (element) {
     return element.value;
   });
@@ -541,12 +541,11 @@ export const total = () => {
   const c14 = course14() * unit14();
   const c15 = course15() * unit15();
 
-  const _sum = tUnit();
+  var _sum = tUnit();
 
-  const cTotal =
+  var cTotal =
     (c1 +
       c2 +
-      c3 +
       c3 +
       c4 +
       c5 +
@@ -559,8 +558,7 @@ export const total = () => {
       c12 +
       c13 +
       c14 +
-      c15) /
-    _sum;
+      c15) / _sum;
   return cTotal;
 };
 
