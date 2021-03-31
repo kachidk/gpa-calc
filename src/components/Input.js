@@ -35,7 +35,7 @@ function Input(props) {
         <span className="text-sm">Unit</span>
         <input
           type="number"
-          className="w-16 h-12 border-2 border-green-500 rounded-md input-value focus:outline-none focus:border-blue-500 input-unit"
+          className={`w-16 h-12 border-2 border-green-500 rounded-md input-value focus:outline-none focus:border-blue-500 input-unit-${props.myNumber}`}
         />
       </div>
       </div>
