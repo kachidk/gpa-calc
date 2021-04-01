@@ -79,7 +79,7 @@ function Home() {
             ),
             content: (
               <>
-                <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-3">
+                <div className="grid grid-cols-1 grid-rows-5 gap-4 mt-4 md:grid-flow-col md:grid-cols-3">
                   <span>
                     Course 1 <span className="ml-4">{ unit1() === 0 ? "Not Filled" : seeg1.current}</span>
                   </span>
@@ -158,7 +158,7 @@ function Home() {
         </Modal>
       )}
       <div className="container mx-auto mb-10">
-        <div className="grid grid-cols-1 grid-rows-5 gap-8 md:grid-flow-col md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 grid-rows-5 gap-8 xl:grid-flow-col xl:grid-cols-3">
           <Input myNumber={1} />
           <Input myNumber={2} />
           <Input myNumber={3} />
