@@ -175,7 +175,7 @@ function Home() {
           <Input myNumber={14} />
           <Input myNumber={15} />
         </div>
-        <div className="flex justify-between mx-auto mt-10 w-60">
+        <div className="flex justify-between mx-auto mt-16 w-60">
           <button
             onClick={addNew}
             className="p-2 text-white bg-blue-500 border-none rounded-md"
