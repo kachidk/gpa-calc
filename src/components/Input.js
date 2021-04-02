@@ -3,7 +3,7 @@ import { ArrowRight } from "../assets/Svgs";
 
 function Input(props) {
   return (
-    <div className="flex flex-col items-center justify-between sm:px-20 md:flex-row md:h-10">
+    <div className="flex flex-col items-center justify-between sm:px-20 lg:px-0 md:flex-row md:h-10">
       <div className="flex">
         <ArrowRight myClass="mr-2" />
         <span className="block mr-3">{`Course ${props.myNumber}`}</span>
